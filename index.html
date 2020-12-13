@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/main.css">
+        <link href="./favicon.ico" type="image/x-icon" rel="icon" />
+    </head>
+    <body>
+        <div class="container" id="my">
+            <div id="control-and-stats-wrapper">
+                <button id="train-button" onclick="setTrainMode()">TRAIN</button>
+                <button id="play-button" onclick="setPlayMode()">PLAY</button>
+                <button id="home" onclick="createCradsCategories()">HOME</button>
+            </div>
+            <div class="cards-wrapper">
+                <div id="cards-wrapper-face" class="cards-wrapper-clear"></div>
+                <div id="cards-wrapper-back" class="cards-wrapper-clear"></div>
+            </div>
+            <button id="start" onclick="startGame()">START</button>
+            <div id="rating"></div>
+        </div>
+        <script src="./script.js" async defer></script>
+    </body>
+</html>
